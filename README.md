@@ -1,6 +1,6 @@
-# manni-web
+# vue-typescript-tailwind
 
-> The web interface of manni, a free budgeting software.
+> VueJS + TypeScript + Sass + PostCSS + Tailwind boilerplate based on Vue PWA template.
 
 ## Build Setup
 
