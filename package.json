@@ -11,13 +11,22 @@
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
-    "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
+    "lint": "eslint --ext .js,.vue,.ts src test/unit/specs test/e2e/specs",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^3.4.1",
+    "@storybook/addon-links": "^3.4.1",
+    "@storybook/addons": "^3.4.1",
+    "@storybook/vue": "^3.4.1",
+    "@types/storybook__addon-actions": "^3.0.3",
+    "@types/storybook__addon-links": "^3.3.0",
+    "@types/storybook__vue": "^3.3.0",
     "autoprefixer": "^7.1.5",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.1",
@@ -26,6 +35,7 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.0",
     "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-vue": "^2.0.2",
     "babel-register": "^6.26.0",
     "chai": "^4.1.2",
     "chalk": "^2.1.0",
