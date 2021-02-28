@@ -1,3 +1,8 @@
+:exclamation: Setting up a project with this stack has become so much easier and better now using the Vue CLI. However, back then no ready-made template for this stack existed and custom boilerplates were still a thing.
+
+Please, don't even think about using this today. The dependencies are outdated anyway. 
+
+
 # vue-typescript-tailwind
 
 > VueJS + TypeScript + Sass + PostCSS + Tailwind boilerplate based on Vue PWA template.
